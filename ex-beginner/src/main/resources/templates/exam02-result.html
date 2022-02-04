@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>exR1</title>
+</head>
+<body>
+<h1>足し算結果画面</h1>
+<span th:text="${session.num1}">dummy</span>×<span th:text="${session.num2}">dummy</span>=<span th:text="${session.r}">dummy</span>
+<br>
+<a href="exam02result2.html"
+   th:href="@{/ex2/ex2R2}">次へ</a>
+</body>
+</html>
